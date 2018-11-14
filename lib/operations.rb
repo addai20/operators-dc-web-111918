@@ -14,6 +14,10 @@ def not_safe?(speed)
   speed < 40 || speed > 60 ? return true: return false 
 	
 end
+
+#Example
+# age = 1
+# age < 2 ? "baby" : "not a baby"
 	
 
 
