@@ -3,7 +3,7 @@
 # 4.  Build the method `not_safe?` that is a version of your previous `unsafe?` method but use the ternary operator (`?:`) instead of an `if`/`else` statement pair.
 
 def unsafe?(speed)
-  if speed < 40 || speed > 60
+  if (speed < 40 || speed > 60)
     return true
   else
     return false
